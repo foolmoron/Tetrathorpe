@@ -1,0 +1,17 @@
+sky
+# first line is the prefix for the filenames; they're hardcoded in. the options are sky, swamp, cave, library.
+# remaining lines start with D or T: 
+# D means a distance delay (a monster spawns when you have walked that distance) and 
+# T means time delay (monster spawns when you've waited that time)
+# the second argument is the delay amount; for distance, it's the distance you've walked in units. for time, it's the time in seconds.
+# the third argument chooses the type of enemy.
+# fourth and fifth indicate the position at which the enemy spawns. Hopefully.
+D 500 5 600 0
+D 500 5 800 100
+D 500 5 800 -100
+D 1000 6 0 0
+D 1000 6 800 0
+D 1500 0 0 0
+D 1500 0 800 0
+D 1500 6 0 200
+D 1500 6 0 -200
